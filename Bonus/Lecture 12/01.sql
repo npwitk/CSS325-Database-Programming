@@ -10,6 +10,7 @@ JOIN boxofficemovie m
     ON w.mid = m.mid;
 
 
+-- Count how many movies each user watched on Oct 13, 2020
 SELECT
     u.username,
     COUNT(*) AS countmovie
