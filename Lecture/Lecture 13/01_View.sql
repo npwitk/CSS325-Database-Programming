@@ -3,7 +3,7 @@ USE tinycompany
 
 -- Type 1: Virtual View
 CREATE VIEW vw_EmpAge AS
-SELECT CONCAT(fname, " ", lname) AS fullname,
+SELECT CONCAT(fname, ' ', lname) AS fullname,
        YEAR(CURDATE()) - YEAR(bdate) AS age
 FROM employee
 ORDER BY age;
@@ -11,7 +11,7 @@ ORDER BY age;
 
 -- Type 2: Materialized View
 CREATE TABLE mVW_EmpAge AS
-SELECT CONCAT(fname, " ", lname) AS fullname,
+SELECT CONCAT(fname, ' ', lname) AS fullname,
        YEAR(CURDATE()) - YEAR(bdate) AS age
 FROM employee
 ORDER BY age;
