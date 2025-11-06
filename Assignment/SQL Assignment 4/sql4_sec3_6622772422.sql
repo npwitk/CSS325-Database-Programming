@@ -20,6 +20,7 @@ SELECT * FROM vm_mingrossmovie;
 
 -- Q3: Create a view name 'vw_cntMovie' for counting all movies
 -- of each studio that had been watched for each day, each month, and each year.
+-- Example of Most Difficult Question of Final Exam
 CREATE VIEW vw_cntMovie AS
 SELECT
     DAY(w.watch_datetime) AS dd,
