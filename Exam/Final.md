@@ -70,7 +70,7 @@ LIMIT 10;
 
 ---
 
-## **2. List of departments with more than 1 student having GPA ≥ 2.0**
+## **2. List of departments with more than 2 student having GPA ≥ 2.0**
 
 ```sql
 SELECT
@@ -79,7 +79,7 @@ SELECT
 FROM Student
 WHERE gpa >= 2.0
 GROUP BY dept_code
-HAVING COUNT(*) > 1;
+HAVING COUNT(*) > 2;
 ```
 
 ---
