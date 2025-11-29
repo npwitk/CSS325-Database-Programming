@@ -48,7 +48,7 @@ It may not be 100% accurate, but it reflects what I personally remember from the
 
 ---
 
-# **Question 4 — DQL (WITH ANSWERS)**
+# **Question 4 — DQL**
 
 ## **1. Top 10 students with highest GPA**
 
